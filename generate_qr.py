@@ -45,8 +45,6 @@ def generate_qr_with_logo(data, logo_path, output_path, qr_size=300, logo_size=6
 
     qr_img.paste(logo, logo_pos, logo)
 
-
-
     # Save the final image
     qr_img.save(output_path)
 
